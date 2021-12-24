@@ -51,3 +51,20 @@
     ° Atualizando Postagens
     ° Documentação Automática
     ° Pacotes Python
+
+## Seção 4: Bancos de dados:
+    ° Introdução ao banco de dados
+    ° Instalação do Postgres Windows
+    ° Postgres Mac Install
+    ° Esquema e tabelas do banco de dados
+    ° Gerenciando Postgres com PgAdmin GUI
+    ° Sua primeira consulta SQL
+    ° Filtre os resultados com a palavra-chave "onde"
+    ° Operadores SQL
+    ° IN palavra-chave
+    ° Correspondência de padrões com a palavra-chave LIKE
+    ° Resultados de pedidos
+    ° LIMIT E OFFSET
+    ° Inserindo Dados
+    ° Exclusão de dados
+    ° Atualizando Dados
