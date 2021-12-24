@@ -87,3 +87,8 @@
     ° Obter postagem por ID
     ° Apague a postagem
     ° Postagem de atualização
+
+## Seção 7: Modelos Pydantic:
+    ° Modelos Pydantic vs ORM
+    ° Mergulho Profundo de Modelos Pydantic
+    ° Modelo de Resposta
