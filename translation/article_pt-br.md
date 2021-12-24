@@ -31,3 +31,23 @@
     ° Noções básicas do ambiente virtual Python
     ° Ambiente virtual em windows
     ° Ambiente virtual no Mac
+
+## Seção 3: FastAPI
+    ° Instale dependências com pip
+    ° Iniciando API Fast
+    ° Operações de caminho
+    ° Ordem de operação do caminho (sim, importa)
+    ° Introdução ao Carteiro
+    ° Solicitações HTTP Post
+    ° Validação de esquema com Pydantic
+    ° Operações CRUD
+    ° Armazenamento de postagens em Array
+    ° Criando postagens
+    ° Coleções do carteiro e pedidos de salvamento
+    ° Recuperar uma postagem
+    ° A ordem do caminho é importante
+    ° Alteração dos códigos de status de resposta
+    ° Exclusão de postagens
+    ° Atualizando Postagens
+    ° Documentação Automática
+    ° Pacotes Python
