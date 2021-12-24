@@ -214,3 +214,16 @@
     ° Excluir pós-teste
     ° Atualizar postagem
     ° Testes de votação
+
+## Seção 17: pipeline de CI / CD:
+    ° CI / CD introdução
+    ° Ações Github
+    ° Criação de trabalhos
+    ° Configurar python / dependencies / pytest
+    ° Variáveis de ambiente
+    ° Github Secrets
+    ° Banco de dados de teste
+    ° Construindo imagens Docker
+    ° Implantar no Heroku
+    ° Testes de falha na tubulação
+    ° Implantar no Ubuntu
