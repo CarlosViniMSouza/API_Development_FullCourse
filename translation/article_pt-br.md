@@ -157,3 +157,21 @@
     ° Variáveis de ambiente em Heroku
     ° Migrações de alambique na instância Heroku Postgres
     ° Inserindo mudanças para produção
+
+## Seção 14: implantação do Ubuntu:
+    ° Criar uma VM Ubuntu
+    ° Atualizar pacotes
+    ° Instalar Python
+    ° Instale o Postgres e configure a senha
+    ° Configuração Postgres
+    ° Crie um novo usuário e configure o ambiente Python
+    ° Variáveis de ambiente
+    ° Migrações de alambique na base de dados de produção
+    ° Gunicorn
+    ° Criação de um serviço Systemd
+    ° NGINX
+    ° Configurando o nome de domínio
+    ° SSL / HTTPS
+    ° habilitar NGINX
+    ° Firewall
+    ° Empurrando mudanças de código para produção
