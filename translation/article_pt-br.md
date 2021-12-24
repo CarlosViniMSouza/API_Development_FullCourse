@@ -68,3 +68,12 @@
     ° Inserindo Dados
     ° Exclusão de dados
     ° Atualizando Dados
+
+## Seção 5: Python + SQL bruto:
+    ° Configurar banco de dados de aplicativos
+    ° Conectando-se ao banco de dados com Python
+    ° Recuperando Postagens
+    ° Criando postagem
+    ° Obtenha uma postagem
+    ° Apague a postagem
+    ° Postagem de atualização
