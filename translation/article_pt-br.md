@@ -92,3 +92,23 @@
     ° Modelos Pydantic vs ORM
     ° Mergulho Profundo de Modelos Pydantic
     ° Modelo de Resposta
+
+## Seção 8: Autenticação e usuários:
+    ° Criando Tabela de Usuários
+    ° Operação do caminho de registro do usuário
+    ° Hashing de senhas de usuário
+    ° Lógica de hash do refrator
+    ° Obter usuário por ID
+    ° Roteadores FastAPI
+    ° Prefixo do roteador
+    ° Tags de roteador
+    ° Noções básicas de token JWT
+    ° Processo de Login
+    ° Criação de um token
+    ° OAuth2 PasswordRequestForm
+    ° Verifique se o usuário está conectado
+    ° Corrigindo Bugs
+    ° Protegendo Rotas
+    ° Token expirado de teste
+    ° Buscando usuário em rotas protegidas
+    ° Recursos avançados do Postman
