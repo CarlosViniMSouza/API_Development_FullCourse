@@ -148,3 +148,12 @@
     ° Pre-Requisitos Git
     ° Git Install
     ° Github
+
+## Seção 13: implantação do Heroku:
+    ° Introdução do Heroku
+    ° Criar aplicativo Heroku
+    ° Heroku procfile
+    ° Adicionando um banco de dados Postgres
+    ° Variáveis de ambiente em Heroku
+    ° Migrações de alambique na instância Heroku Postgres
+    ° Inserindo mudanças para produção
