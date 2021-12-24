@@ -180,6 +180,37 @@
     ° Dockerfile
     ° Docker Compose
     ° Recipiente Postgres
-    ° Bind Suportes
+    ° Suporte Bind
     ° Dockerhub
     ° Produção vs Desenvolvimento
+
+## Seção 16: Teste:
+    ° Introdução ao Teste
+    ° Escrevendo seu primeiro teste
+    ° Os sinalizadores -s e -v
+    ° Testando mais funções
+    ° Parametrizar
+    ° Aulas de teste
+    ° Fixtures
+    ° Combinando luminárias + Parametrizar
+    ° Exceções de teste
+    ° FastAPI TestClient
+    ° Bandeiras Pytest
+    ° Testar criar usuário
+    ° Configurar banco de dados de teste
+    ° Criar e destruir banco de dados após cada teste
+    ° Mais luminárias para lidar com a interação do banco de dados
+    ° Barras finais no caminho
+    ° Escopo de fixação
+    ° Teste de fixação do usuário
+    ° Testar / validar token
+    ° Conftest.py
+    ° Falha no teste de login
+    ° Obtenha todos os posts de teste
+    ° Postagens de fixação para criar postagens de teste
+    ° Teste de obtenção de postagens não autorizado
+    ° Faça um pós-teste
+    ° Criar pós-teste
+    ° Excluir pós-teste
+    ° Atualizar postagem
+    ° Testes de votação
