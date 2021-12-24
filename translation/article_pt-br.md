@@ -142,3 +142,9 @@
     ° Esquema do banco de dados de reversão do Alembic
     ° Alambic finalizando o resto do esquema
     ° Desativar SqlAlchemy create Engine
+
+## Seção 12: Lista de verificação pré-implantação:
+    ° O que é CORS ?????
+    ° Pre-Requisitos Git
+    ° Git Install
+    ° Github
