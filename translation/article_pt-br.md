@@ -127,10 +127,18 @@
     ° Variáveis de Ambiente
 
 ## Seção 10: Sistema de votar/curtir:
-    ° Teoria do Voto / Gosto
+    ° Teoria do Voto/Curtir
     ° Mesa de Votos
     ° Votos Sqlalchemy
     ° Rota de votos
     ° SQL Joins
     ° Junta-se ao SqlAlchemy
     ° Obtenha uma postagem com associações
+
+## Seção 11: Migração de banco de dados com Alembic:
+    ° O que é uma ferramenta de migração de banco de dados
+    ° Configuração do Alambic
+    ° Alembic First Revision
+    ° Esquema do banco de dados de reversão do Alembic
+    ° Alambic finalizando o resto do esquema
+    ° Desativar SqlAlchemy create Engine
