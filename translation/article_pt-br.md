@@ -112,3 +112,16 @@
     ° Token expirado de teste
     ° Buscando usuário em rotas protegidas
     ° Recursos avançados do Postman
+
+## Seção 9: Relacionamentos:
+    ° Noções básicas de relacionamento SQL
+    ° Postgres Foreign Keys
+    ° SQLAlchemy Foreign Keys
+    ° Atualizar o Post Schema para incluir o usuário
+    ° Atribuindo ID de proprietário ao criar uma nova postagem
+    ° Exclua e atualize apenas suas próprias postagens
+    ° Recuperando apenas as postagens do usuário conectado
+    ° Relacionamentos Sqlalchemy
+    ° Parâmetros de consulta
+    ° Limpe nosso arquivo main.py
+    ° Variáveis de Ambiente
