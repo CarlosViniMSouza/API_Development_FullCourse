@@ -22,3 +22,12 @@
     ° Projeto de Curso
     ° Introdução ao curso
     ° Visão geral do projeto do curso
+
+## Seção 2: configuração e instalação
+    ° Instalação Mac Python
+    ° Instalação e configuração do Mac VS Code
+    ° Instalação do Windows Python
+    ° Instalação e configuração do Windows VS Code
+    ° Noções básicas do ambiente virtual Python
+    ° Ambiente virtual em windows
+    ° Ambiente virtual no Mac
