@@ -125,3 +125,12 @@
     ° Parâmetros de consulta
     ° Limpe nosso arquivo main.py
     ° Variáveis de Ambiente
+
+## Seção 10: Sistema de votar / curtir:
+    ° Teoria do Voto / Gosto
+    ° Mesa de Votos
+    ° Votos Sqlalchemy
+    ° Rota de votos
+    ° SQL Joins
+    ° Junta-se ao SqlAlchemy
+    ° Obtenha uma postagem com associações
