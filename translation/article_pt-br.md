@@ -77,3 +77,13 @@
     ° Obtenha uma postagem
     ° Apague a postagem
     ° Postagem de atualização
+
+## Seção 6: ORMs:
+    ° Introdução ORM
+    ° Configuração SQLALCHEMY
+    ° Adicionando coluna CreatedAt
+    ° Obter todas as postagens
+    ° Criar Postagens
+    ° Obter postagem por ID
+    ° Apague a postagem
+    ° Postagem de atualização
