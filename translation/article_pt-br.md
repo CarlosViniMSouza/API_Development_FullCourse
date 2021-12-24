@@ -1,3 +1,9 @@
+# Criando APIs com Python - Curso Gratuito de 19 Horas
+
+## Artigo por: Beau Carnes
+
+![logo_Article](https://www.freecodecamp.org/news/content/images/size/w2000/2021/11/pythonapi.png)
+
 ## Muitos tutoriais de API ensinam apenas o mínimo absoluto. Mas uma API pronta para produção é muito mais complicada do que a maioria dos tutoriais ensina.
 
 ### Acabamos de publicar um curso massivo de 19 horas no canal freeCodeCamp.org do YouTube que irá ensiná-lo a construir uma API completa usando Python e a biblioteca FastAPI
@@ -18,12 +24,12 @@
 
 ### Aqui está uma lista completa dos tópicos abordados neste curso abrangente:
 
-## Seção 1: introdução
+## Seção 1 - introdução
     ° Projeto de Curso
     ° Introdução ao curso
     ° Visão geral do projeto do curso
 
-## Seção 2: configuração e instalação
+## Seção 2 - configuração e instalação
     ° Instalação Mac Python
     ° Instalação e configuração do Mac VS Code
     ° Instalação do Windows Python
@@ -32,7 +38,7 @@
     ° Ambiente virtual em windows
     ° Ambiente virtual no Mac
 
-## Seção 3: FastAPI
+## Seção 3 - FastAPI
     ° Instale dependências com pip
     ° Iniciando API Fast
     ° Operações de caminho
@@ -52,7 +58,7 @@
     ° Documentação Automática
     ° Pacotes Python
 
-## Seção 4: Bancos de dados:
+## Seção 4 - Bancos de dados:
     ° Introdução ao banco de dados
     ° Instalação do Postgres Windows
     ° Postgres Mac Install
@@ -69,7 +75,7 @@
     ° Exclusão de dados
     ° Atualizando Dados
 
-## Seção 5: Python + SQL bruto:
+## Seção 5 - Python + SQL bruto:
     ° Configurar banco de dados de aplicativos
     ° Conectando-se ao banco de dados com Python
     ° Recuperando Postagens
@@ -78,7 +84,7 @@
     ° Apague a postagem
     ° Postagem de atualização
 
-## Seção 6: ORMs:
+## Seção 6 - ORMs:
     ° Introdução ORM
     ° Configuração SQLALCHEMY
     ° Adicionando coluna CreatedAt
@@ -88,12 +94,12 @@
     ° Apague a postagem
     ° Postagem de atualização
 
-## Seção 7: Modelos Pydantic:
+## Seção 7 - Modelos Pydantic:
     ° Modelos Pydantic vs ORM
     ° Mergulho Profundo de Modelos Pydantic
     ° Modelo de Resposta
 
-## Seção 8: Autenticação e usuários:
+## Seção 8 - Autenticação e usuários:
     ° Criando Tabela de Usuários
     ° Operação do caminho de registro do usuário
     ° Hashing de senhas de usuário
@@ -113,7 +119,7 @@
     ° Buscando usuário em rotas protegidas
     ° Recursos avançados do Postman
 
-## Seção 9: Relacionamentos:
+## Seção 9 - Relacionamentos:
     ° Noções básicas de relacionamento SQL
     ° Postgres Foreign Keys
     ° SQLAlchemy Foreign Keys
@@ -126,7 +132,7 @@
     ° Limpe nosso arquivo main.py
     ° Variáveis de Ambiente
 
-## Seção 10: Sistema de votar/curtir:
+## Seção 10 - Sistema de votar/curtir:
     ° Teoria do Voto/Curtir
     ° Mesa de Votos
     ° Votos Sqlalchemy
@@ -135,7 +141,7 @@
     ° Junta-se ao SqlAlchemy
     ° Obtenha uma postagem com associações
 
-## Seção 11: Migração de banco de dados com Alembic:
+## Seção 11 - Migração de banco de dados com Alembic:
     ° O que é uma ferramenta de migração de banco de dados
     ° Configuração do Alambic
     ° Alembic First Revision
@@ -143,13 +149,13 @@
     ° Alambic finalizando o resto do esquema
     ° Desativar SqlAlchemy create Engine
 
-## Seção 12: Lista de verificação pré-implantação:
+## Seção 12 - Lista de verificação pré-implantação:
     ° O que é CORS ?????
     ° Pre-Requisitos Git
     ° Git Install
     ° Github
 
-## Seção 13: implantação do Heroku:
+## Seção 13 - implantação do Heroku:
     ° Introdução do Heroku
     ° Criar aplicativo Heroku
     ° Heroku procfile
@@ -158,7 +164,7 @@
     ° Migrações de alambique na instância Heroku Postgres
     ° Inserindo mudanças para produção
 
-## Seção 14: implantação do Ubuntu:
+## Seção 14 - implantação do Ubuntu:
     ° Criar uma VM Ubuntu
     ° Atualizar pacotes
     ° Instalar Python
@@ -176,7 +182,7 @@
     ° Firewall
     ° Empurrando mudanças de código para produção
 
-## Seção 15: Docker:
+## Seção 15 - Docker:
     ° Dockerfile
     ° Docker Compose
     ° Recipiente Postgres
@@ -184,7 +190,7 @@
     ° Dockerhub
     ° Produção vs Desenvolvimento
 
-## Seção 16: Teste:
+## Seção 16 - Teste:
     ° Introdução ao Teste
     ° Escrevendo seu primeiro teste
     ° Os sinalizadores -s e -v
@@ -215,7 +221,7 @@
     ° Atualizar postagem
     ° Testes de votação
 
-## Seção 17: pipeline de CI / CD:
+## Seção 17 - pipeline de CI / CD:
     ° CI / CD introdução
     ° Ações Github
     ° Criação de trabalhos
@@ -227,3 +233,5 @@
     ° Implantar no Heroku
     ° Testes de falha na tubulação
     ° Implantar no Ubuntu
+
+### Assista ao curso completo abaixo ou no [canal freeCodeCamp.org no YouTube (19 horas de exibição)](https://youtu.be/0sOvCWFmrtA).
