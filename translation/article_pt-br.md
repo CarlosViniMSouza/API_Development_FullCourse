@@ -175,3 +175,11 @@
     ° habilitar NGINX
     ° Firewall
     ° Empurrando mudanças de código para produção
+
+## Seção 15: Docker:
+    ° Dockerfile
+    ° Docker Compose
+    ° Recipiente Postgres
+    ° Bind Suportes
+    ° Dockerhub
+    ° Produção vs Desenvolvimento
