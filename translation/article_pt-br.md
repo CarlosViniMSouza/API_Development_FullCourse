@@ -126,7 +126,7 @@
     ° Limpe nosso arquivo main.py
     ° Variáveis de Ambiente
 
-## Seção 10: Sistema de votar / curtir:
+## Seção 10: Sistema de votar/curtir:
     ° Teoria do Voto / Gosto
     ° Mesa de Votos
     ° Votos Sqlalchemy
