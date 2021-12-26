@@ -8,3 +8,9 @@ app = FastAPI()
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
+
+# Esse trecho eh uma novidade que eu gostaria de testar!
+@app.get("/welcome/{name}/")
+async def root(name: str):
+    return {"message": f"Ola {name}. Eh um prazer vê-lo aqui"}
