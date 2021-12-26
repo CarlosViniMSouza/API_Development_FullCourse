@@ -31,3 +31,10 @@ NOTE 3: Please help me improve this repository. Any help is welcome! (PT_BR: Por
 ### (Section 16) 14:14:51 Testing Intro
 ### (Section 17) 17:34:15 CI/CD intro
 
+## Description:
+
+### Learn Python API development in one of the most comprehensive courses ever on the topic. You will build a full-fledged API in Python using FastAPI. You will learn the fundamentals of API design including routes, serialization/deserialization, schema validation, and models. You will also learn about SQL, testing with pytest, and how to build out a CI/CD pipeline using GitHub actions.
+
+### (PT-BR: Aprenda o desenvolvimento da API Python em um dos cursos mais abrangentes de todos os tempos sobre o assunto. Você construirá uma API completa em Python usando FastAPI. Você aprenderá os fundamentos do design de API, incluindo rotas, serialização / desserialização, validação de esquema e modelos. Você também aprenderá sobre SQL, testando com pytest, e como construir um pipeline de CI / CD usando ações do GitHub.)
+
+### [GitHub Project link](https://github.com/Sanjeev-Thiyagarajan/fastapi-course) 
