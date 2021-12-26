@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Sections 14 ~ 17 -> add"
+git commit -m "Installation Python & VS Code -> ok"
 git push
 git status
 clear
