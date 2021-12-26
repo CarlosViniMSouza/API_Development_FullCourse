@@ -11,6 +11,6 @@ async def root():
 
 
 # Esse trecho eh uma novidade que eu gostaria de testar!
-@app.get("/welcome/{name}/")
+@app.get("/bemvindo/{name}/")
 async def root(name: str):
     return {"message": f"Ola {name}. Eh um prazer vê-lo aqui"}

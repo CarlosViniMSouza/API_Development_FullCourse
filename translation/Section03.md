@@ -18,9 +18,21 @@ from fastapi import FastAPI ## Aqui, importamos uma sub-biblioteca do fastapi: a
 app = FastAPI() ## Aqui, temos uma variavel denominada 'app' que comportará todo o conteudo da sub-lib.
 
 
-@app.get("/welcome") ## Aqui, nós temos um construtor -> que nada mais é do que um método que usamos para uma determinada tarefa.
+@app.get("/welcome") ## Aqui, nós temos uma instância -> que nada mais é do que um método que usamos para determinar uma rota.
 async def root():
     return {"message": "Hello World"} ## E por fim, a função assincrona irá retornar uma mensagem dizendo "Hello World"
 ```
 
 ### Claro, tem outras coisas a serem explicadas: Métodos GET()/POST()/PUT()/DELETE(); rotas na web. mas veremos pouco a pouco.
+
+### Um conceito muito importante de Python que devemos entender nessa parte é 'decorators'.
+
+## Link para o material da Mozilla sobre [Métodos de Requisição HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+```
+NOTE: Estude um pouco mais sobre conceitos web!
+- Protocolos
+- Host
+- Rotas/Caminhos/Paths
+- Como um Browser funciona, etc
+```
