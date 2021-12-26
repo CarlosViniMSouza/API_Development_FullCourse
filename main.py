@@ -1,3 +1,5 @@
+# Esse trecho de código pode ser visto na documentação: https://fastapi.tiangolo.com/tutorial/first-steps/
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -5,9 +7,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Merry Christmas!"}
-
-
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}, Merry Christmas!"}
+    return {"message": "Hello World"}
