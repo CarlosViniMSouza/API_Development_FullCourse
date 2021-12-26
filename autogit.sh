@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Sections 2, 3 and 4 -> add"
+git commit -m "Sections 5, 6 and 7 -> add"
 git push
 git status
 clear
