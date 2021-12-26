@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Next Topic: Ambientes Virtuais (Virtual Environments) - virtualenv"
+git commit -m "Section2.md -> concluded"
 git push
 git status
 clear

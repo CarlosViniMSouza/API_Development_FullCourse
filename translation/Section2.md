@@ -25,3 +25,23 @@
 ### Ou seja, se usarmos um ambiente virtual, poderemos isolar as dependências do projeto das dependências instaladas localmente (o que garante uma certa segurança ao programador na hora da codificação).
 
 ### Então, faremos uso de um ambiente virtual python (através da biblioteca virtualenv) -  para evitar problemas de compatibilidade entre dependências no transcorrer do desenvolvimento.
+
+## Ambientes Virtuais (Virtual Environments) - virtualenv:
+
+```NOTE: Os comandos a seguir foram feitos no cmd(Windows)```
+
+### 1° Passo - Criando o ambiente virtual: 
+```shell
+$ pip -3 -m venv venv
+```
+
+### 2° Passo -  Agora, voce deverá 'ativar' a venv:
+```shell
+venv\Scripts\activate.bat
+```
+
+### Quando a venv for ativada no terminal, aparecerá a palavra: `(venv)`
+
+### E por aqui terminamos o Section2.md (O Section1.md foi a introdução do vídeo) !
+
+Proximo etapa em: 34:07 - 10 Install dependencies w/ pip
