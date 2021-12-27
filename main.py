@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Bem Vindo a minha API de Teste!"}
 
 
 # Esse trecho eh uma novidade que eu gostaria de testar!

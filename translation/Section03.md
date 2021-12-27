@@ -15,7 +15,7 @@
 ```python
 from fastapi import FastAPI ## Aqui, importamos uma sub-biblioteca do fastapi: a FastAPI -> que usamos para disponibilizar os métodos que usaremos a seguir.
 
-app = FastAPI() ## Aqui, temos uma variavel denominada 'app' que comportará todo o conteudo da sub-lib.
+app = FastAPI() ## Aqui, temos uma variavel denominada 'app' que comportará t0d0 o conteudo da sub-lib.
 
 
 @app.get("/welcome") ## Aqui, nós temos uma instância -> que nada mais é do que um método que usamos para determinar uma rota.
@@ -36,3 +36,11 @@ NOTE: Estude um pouco mais sobre conceitos web!
 - Rotas/Caminhos/Paths
 - Como um Browser funciona, etc
 ```
+
+`Continua no momento 45:05`
+
+`NOTE: Sempre que fores fazer alguma alteração no código, é importante salvar as alterações e restartar o servidor!`
+
+### Comando para restartar a aplicação: `$ uvicorn main:app --reload`
+
+### OBS.: Esse comando irá fazer a aplicação restartar o servidor sempre que alguma mudança for adicionado no código. 
