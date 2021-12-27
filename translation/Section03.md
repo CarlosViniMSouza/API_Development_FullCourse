@@ -37,10 +37,10 @@ NOTE: Estude um pouco mais sobre conceitos web!
 - Como um Browser funciona, etc
 ```
 
-`Continua no momento 45:05`
-
 `NOTE: Sempre que fores fazer alguma alteração no código, é importante salvar as alterações e restartar o servidor!`
 
 ### Comando para restartar a aplicação: `$ uvicorn main:app --reload`
 
 ### OBS.: Esse comando irá fazer a aplicação restartar o servidor sempre que alguma mudança for adicionado no código. 
+
+`Continua no momento 47:05`
