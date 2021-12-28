@@ -43,4 +43,6 @@ NOTE: Estude um pouco mais sobre conceitos web!
 
 ### OBS.: Esse comando irá fazer a aplicação restartar o servidor sempre que alguma mudança for adicionado no código. 
 
-`Continua no momento 47:05`
+## A partir daqui utilizaremos outra ferramenta que irá nos auxiliar na construção de nossa API: O [Postman](https://www.postman.com/downloads/)
+
+`Continua no minuto 55:22`
