@@ -46,3 +46,5 @@ NOTE: Estude um pouco mais sobre conceitos web!
 ## A partir daqui utilizaremos outra ferramenta que irá nos auxiliar na construção de nossa API: O [Postman](https://www.postman.com/downloads/)
 
 `Continua no minuto 55:22`
+
+### Com o Postman, poderemos fazer diversas operações com os métodos de Requisição HTTP (no caso, são GET(), POST(), PUT(), DELETE())
