@@ -67,3 +67,5 @@ POST() -> é semelhante ao GET(), só que com a diferença de que o usuário ir�
 "detail": "Method Not Allowed"
 }
 ```
+
+`Continua no momento 1:01:10`
