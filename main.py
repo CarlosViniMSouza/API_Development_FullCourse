@@ -29,3 +29,10 @@ async def get_name(name: str):
 @app.get("/cumprimento/")
 def root():
     return {"message": "🖖🤓 ~ Saudações Visitante!"}
+
+
+# Requisições com Metodo POST():
+
+@app.post("/create_posts/")
+def create_posts():
+    return {"message": "Succesfully created post!"}

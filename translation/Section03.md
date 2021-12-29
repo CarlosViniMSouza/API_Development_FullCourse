@@ -48,3 +48,22 @@ NOTE: Estude um pouco mais sobre conceitos web!
 `Continua no minuto 55:22`
 
 ### Com o Postman, poderemos fazer diversas operações com os métodos de Requisição HTTP (no caso, são GET(), POST(), PUT(), DELETE())
+
+### Falando um pouco sobre cada método HTTP:
+
+```
+Métodos de Requisição HTTP:
+
+GET() -> esse método  visa retornar um estado/informação que a API já irá atender logo após receber a a requisição.
+POST() -> é semelhante ao GET(), só que com a diferença de que o usuário irá enviar uma determinada informação(dados) para a API, e só então receber a resposta.
+```
+
+## Usando o Postman:
+
+### Se você olhar a função `create_posts()` com o método POST(), teste-a no Postman. E detalhe: Não adianta tentar usar o browser porque vai aparecer a seguinte mensagem:
+
+```json
+{
+"detail": "Method Not Allowed"
+}
+```
