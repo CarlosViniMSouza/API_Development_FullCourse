@@ -1,6 +1,7 @@
 # Esse trecho de código pode ser visto na documentação: https://fastapi.tiangolo.com/tutorial/first-steps/
 
 from fastapi import FastAPI
+from fastapi.params import Body
 
 app = FastAPI()
 
@@ -34,5 +35,9 @@ def root():
 # Requisições com Metodo POST():
 
 @app.post("/create_posts/")
-def create_posts():
+def create_posts(payload: dict = Body(...)):
+    print(payload)
     return {"message": "Succesfully created post!"}
+
+
+# command for activate server: uvicorn main:app

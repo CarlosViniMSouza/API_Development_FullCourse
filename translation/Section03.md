@@ -68,4 +68,12 @@ POST() -> é semelhante ao GET(), só que com a diferença de que o usuário ir�
 }
 ```
 
+### Uma das vantagens de se utilizar o Postman, é que podemos fazer diversos testes de requisições da API e podemos configurar o formato de saída (o mais popular é o formato JSON).
+
+### Ao testar o parâmentro inserido na função created_post(), você poderá observar em seu terminar a impressão do que for colocado no Postman (deixarei um exemplo abaixo):
+
+```uvicorn
+{'title': 'Break News Today', 'subtitle': 'An accident in the F1 Pist train', 'content': 'One of the Ferrari team drivers was injured during a stage of the test race on Saturday.'}
+```
+
 `Continua no momento 1:01:10`
