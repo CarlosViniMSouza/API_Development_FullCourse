@@ -72,8 +72,30 @@ POST() -> é semelhante ao GET(), só que com a diferença de que o usuário ir�
 
 ### Ao testar o parâmentro inserido na função created_post(), você poderá observar em seu terminar a impressão do que for colocado no Postman (deixarei um exemplo abaixo):
 
-```uvicorn
+```
 {'title': 'Break News Today', 'subtitle': 'An accident in the F1 Pist train', 'content': 'One of the Ferrari team drivers was injured during a stage of the test race on Saturday.'}
 ```
 
-`Continua no momento 1:01:10`
+### Depois de formatar corretamente o main.py, você poderá obter uma saída como essa no Postman:
+
+```
+{
+    "new_post_title": "Title: Break News Today",
+    "new_post_sub": "SubTitle: An accident in the F1 Pist train",
+    "new_post_cont": "Content: fOne of the Ferrari team drivers was injured during a stage of the test race on Saturday."
+}
+```
+
+## Por que nós precisamos do Esquema(Schema):
+
+1 - É uma dor obter todos os valores do corpo
+
+2 - O cliente pode sede de todos os dados que quiser
+
+3 - Os dados não estão sendo validados
+
+4 - Em última análise, queremos forçar o cliente a enviar dados em um esquema que esperamos
+
+### Em suma, esquemas facilitam a cooperação entre front-end e back-end na requisição e tratamento de dados.
+
+`Continua no momento 1:08:55`

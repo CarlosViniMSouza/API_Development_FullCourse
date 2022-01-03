@@ -36,8 +36,10 @@ def root():
 
 @app.post("/create_posts/")
 def create_posts(payload: dict = Body(...)):
-    print(payload)
-    return {"message": "Succesfully created post!"}
 
+    return {"new_post_title": f"Title: {payload['title']}",
+            "new_post_sub": f"SubTitle: {payload['subtitle']}",
+            "new_post_cont": f"Content: f{payload['content']}"
+            }
 
 # command for activate server: uvicorn main:app
