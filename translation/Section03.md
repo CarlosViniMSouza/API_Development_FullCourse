@@ -104,4 +104,13 @@ POST() -> é semelhante ao GET(), só que com a diferença de que o usuário ir�
 
 ### O que mudou, é que agora estamos usando uma classe para passar as informações que serão filtradas no método POST() -> além é claro, de facilitar a futura manutenção do código.
 
+### Outra coisa: na função create_post(), o print() mostrará no terminal da IDE, o que pode ser visto na requisição do Postman()
+
+```json
+{
+  "mensagem1": "Gente, eu cansei de fazer dessa forma (ver o tutorial, tentar traduzir o que foi dito e explicar o código). Isso demora muito para ser feito",
+  "mensagem2": "Verei uma outra forma do que poderá ser feito - não quero desperdiçar esse trabalho! Mas quero concluir ele o quanto antes."
+}
+```
+
 `Continua no momento 1:14:10`

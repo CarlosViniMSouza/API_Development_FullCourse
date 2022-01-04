@@ -43,7 +43,7 @@ def root():
 
 @app.post("/create_posts/")
 def create_posts(new_post: Post):
-    print(new_post)
+    print("\n\tTitle: ", new_post.title, "\nSub-Title: ", new_post.subtitle, "\n Content: ", new_post.content)
     return {
                 "new_post_title": f"{new_post.title}",
                 "new_post_sub":   f"{new_post.subtitle}",
