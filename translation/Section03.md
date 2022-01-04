@@ -98,4 +98,10 @@ POST() -> é semelhante ao GET(), só que com a diferença de que o usuário ir�
 
 ### Em suma, esquemas facilitam a cooperação entre front-end e back-end na requisição e tratamento de dados.
 
-`Continua no momento 1:08:55`
+### Agora, vamos utilizar a lib pydantic para recriar a função create_post() em forma de função Post(BaseModel).
+
+### Após experimentar a classe Post(BaseModel), você já deve ter notado o seguinte: a saída permaceu a mesma!
+
+### O que mudou, é que agora estamos usando uma classe para passar as informações que serão filtradas no método POST() -> além é claro, de facilitar a futura manutenção do código.
+
+`Continua no momento 1:14:10`

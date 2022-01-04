@@ -2,8 +2,15 @@
 
 from fastapi import FastAPI
 from fastapi.params import Body
+from pydantic import BaseModel
 
 app = FastAPI()
+
+
+class Post(BaseModel):
+    title: str
+    subtitle: str
+    content: str
 
 
 # Requisições com Método GET():
@@ -35,11 +42,12 @@ def root():
 # Requisições com Metodo POST():
 
 @app.post("/create_posts/")
-def create_posts(payload: dict = Body(...)):
-
-    return {"new_post_title": f"Title: {payload['title']}",
-            "new_post_sub": f"SubTitle: {payload['subtitle']}",
-            "new_post_cont": f"Content: f{payload['content']}"
-            }
+def create_posts(new_post: Post):
+    print(new_post)
+    return {
+                "new_post_title": f"{new_post.title}",
+                "new_post_sub":   f"{new_post.subtitle}",
+                "new_post_cont":  f"{new_post.content}"
+           }
 
 # command for activate server: uvicorn main:app
