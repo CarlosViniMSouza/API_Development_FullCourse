@@ -46,9 +46,7 @@ def root():
 # Method POST() Requisitions:
 @app.post("/create_posts/")
 def create_posts(new_post: Post):
-    print("\n\tTitle: ", new_post.title, "\nSub-Title: ", new_post.subtitle,
-          "\n  Content: ", new_post.content, "\nPublished: ", new_post.published,
-          "\nClassific: ", new_post.rating)
+    print(new_post.dict())
     return {
         "new_post_title": f"{new_post.title}",
         "new_post_sub": f"{new_post.subtitle}",
@@ -56,7 +54,6 @@ def create_posts(new_post: Post):
         "new_post_pub": f"{new_post.published}",
         "new_post_rat": f"{new_post.rating}"
     }
-
 
 '''
 Output (Example):
@@ -66,4 +63,18 @@ Sub-Title:  Python 4.0 never arrive
   Content:  According to Guido Van Rossum, version 4 of the language will never be a reality due to problems linked in version 2.7 
 Published:  False 
 Classific:  5
+'''
+
+'''
+# CRUD:
+
+## Create: 	  POST() --> @app.post("/posts")
+
+## Read: 	  GET() --> @app.get("/posts") | @app.get("/posts/{id}")
+
+## Update: 	  PUT() --> app.put("/posts/{id}")
+
+## Delete:     DELETE() --> @app.delete("/posts/{id}")
+
+### Basic Operations for Data Manipulation
 '''

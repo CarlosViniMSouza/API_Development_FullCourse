@@ -1,5 +1,5 @@
 git add -A
-git commit -m "main.py -> add vars: Classification & Rating"
+git commit -m "main.py -> CRUD add (comment format)"
 git push
 git status
 clear

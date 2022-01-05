@@ -113,4 +113,4 @@ POST() -> é semelhante ao GET(), só que com a diferença de que o usuário ir�
 }
 ```
 
-`Continua no momento 1:14:10`
+`Continua no momento 1:23:50`
