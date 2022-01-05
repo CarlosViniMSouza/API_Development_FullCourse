@@ -1,5 +1,5 @@
 git add -A
-git commit -m "Section3.md -> menssages add"
+git commit -m "main.py -> add vars: Classification & Rating"
 git push
 git status
 clear
