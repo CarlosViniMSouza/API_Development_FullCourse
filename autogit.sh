@@ -1,5 +1,5 @@
 git add -A
-git commit -m "conftests.py & index.py -> add | Tests created"
+git commit -m "routers -> created | auth.py -> add"
 git push
 git status
 clear
