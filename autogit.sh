@@ -1,5 +1,5 @@
 git add -A
-git commit -m "main.py -> CRUD add (comment format)"
+git commit -m "translations folder -> removed"
 git push
 git status
 clear

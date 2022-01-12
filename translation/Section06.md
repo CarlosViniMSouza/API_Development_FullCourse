@@ -1,1 +1,0 @@
-# Here is Resume about Section 6
