@@ -1,5 +1,5 @@
 git add -A
-git commit -m "utils.py -> add"
+git commit -m "build-deploy.yml -> add"
 git push
 git status
 clear
