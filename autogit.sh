@@ -1,5 +1,5 @@
 git add -A
-git commit -m "post.py -> finished | @routers.put() -> finished"
+git commit -m "user.py -> add & finished"
 git push
 git status
 clear
