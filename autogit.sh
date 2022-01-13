@@ -1,5 +1,5 @@
 git add -A
-git commit -m "vote.py & routers folder -> add & finished"
+git commit -m "calculations.py -> add"
 git push
 git status
 clear
