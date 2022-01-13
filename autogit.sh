@@ -1,5 +1,5 @@
 git add -A
-git commit -m "schemas.py -> add"
+git commit -m "utils.py -> add"
 git push
 git status
 clear
