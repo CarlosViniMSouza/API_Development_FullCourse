@@ -1,5 +1,5 @@
 git add -A
-git commit -m "calculations.py -> add"
+git commit -m "config.py -> add"
 git push
 git status
 clear
