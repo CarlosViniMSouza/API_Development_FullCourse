@@ -1,5 +1,5 @@
 git add -A
-git commit -m "database.py -> add"
+git commit -m "models.py -> add"
 git push
 git status
 clear
