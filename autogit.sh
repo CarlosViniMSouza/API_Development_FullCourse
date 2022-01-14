@@ -1,5 +1,5 @@
 git add -A
-git commit -m "test_calculations.py -> add | Any test being receveid"
+git commit -m "test_calculations.py -> add & finished"
 git push
 git status
 clear
