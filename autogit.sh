@@ -1,5 +1,5 @@
 git add -A
-git commit -m ".dockerignore & Procfile -> add"
+git commit -m "requirements.txt -> add"
 git push
 git status
 clear
