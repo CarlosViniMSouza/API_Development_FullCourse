@@ -1,5 +1,5 @@
 git add -A
-git commit -m "docker-compose (dev & production) -> add"
+git commit -m "nginx -> add"
 git push
 git status
 clear
