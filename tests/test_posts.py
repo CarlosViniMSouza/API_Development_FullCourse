@@ -134,3 +134,9 @@ def test_update_post_non_exist(authorized_client, test_user, test_posts):
         f"/posts/8000000", json=data)
 
     assert res.status_code == 404
+
+
+def test_unauthorized_user_update_post(client, test_user, test_posts):
+    res = client.put(
+        f"/posts/{test_posts[0].id}")
+    assert res.status_code == 401
