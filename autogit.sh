@@ -1,5 +1,5 @@
 git add -A
-git commit -m "gunicorn -> add"
+git commit -m "app.put() -> add"
 git push
 git status
 clear

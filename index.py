@@ -5,7 +5,7 @@ from fastapi.params import Body
 from pydantic import BaseModel
 from typing import Optional
 
-# command for activate server: uvicorn main:app
+# command for activate server: uvicorn index:app
 
 app = FastAPI()  # This variable is useless
 
@@ -31,19 +31,21 @@ async def get_posts():
     return {"message": "Sua Postagem está aqui!"}
 
 
-# This excerpt is a novelty that I would like to test!
-@app.get("/welcome/{name}/")
-async def get_name(name: str):
-    return {"message": f"Ola {name}. Eh um prazer vê-lo aqui"}
-
-
 # Testing the function without 'async':
 @app.get("/cumprimento/")
 def root():
     return {"message": "🖖🤓 ~ Saudações Visitante!"}
 
 
+# This excerpt is a novelty that I would like to test!
+@app.get("/welcome/{name}/")
+async def get_name(name: str):
+    return {"message": f"Ola {name}. Eh um prazer vê-lo aqui"}
+
+
 # Method POST() Requisitions:
+
+
 @app.post("/create_posts/")
 def create_posts(new_post: Post):
     print(new_post.dict())
@@ -54,6 +56,22 @@ def create_posts(new_post: Post):
         "new_post_pub": f"{new_post.published}",
         "new_post_rat": f"{new_post.rating}"
     }
+
+
+# Method PUT() Requisitions:
+
+
+@app.put("/create_posts/{id}")
+def update_posts(update_post: Post):
+    print(update_post.dict())
+    return {
+        "update_post_title": f"{update_post.title}",
+        "update_post_sub": f"{update_post.subtitle}",
+        "update_post_cont": f"{update_post.content}",
+        "update_post_pub": f"{update_post.published}",
+        "update_post_rat": f"{update_post.rating}"
+    }
+
 
 '''
 Output (Example):
